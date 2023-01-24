@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 146px;
+
+    background-color: #1F2937;
+    height: 80px;
+}
+
+.header-links {
+    display: flex;
+    font-size: 28px;
+    gap: 80px;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-header {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+}
+
+.hero-content {
+    display: flex;
+    width: 1171px;
+    height: 222px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-size: 18px;
+
+    color: #F9FaF8;
+}
+
+.hero-button{
+    background-color: cornflowerblue;
+    border-radius: 6px;
+    border-style: none;
+    align-self: flex-start;
+    margin-top: 12px;
+    padding: 8px 20px;
+    color: #F9FaF8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-image {
+    height: auto; 
+    width: auto; 
+}
+
+
+.picture-title {
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    margin: 60px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.display-info {
+    flex: 0 0 200px;
+    flex-wrap: wrap;
+
+}
+
+.box-image {
+    height: auto; 
+    width: auto; 
+}
+
+.filler-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+
+}
+
+.filler-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 800px;
+}
+
+.filler-quote{
+    font-size: 36px;
+    font-style: lighter;
+    font-family: italic;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+a {text-decoration: none; color: white}
